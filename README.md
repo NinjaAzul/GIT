@@ -5,7 +5,7 @@
 - [x] git clone - é usado para copiar um repositório
 - [x] git add - adiciona um arquivo para seu próximo commit
 - [x] git commit - criará uma cópia das mudanças e salva no diretório GIT
-- [x] git push - move os arquivos locais para o original
+- [x] git push - move os arquivos locais para o repositório remoto
 
 ### Branching e Merging
 - git branch - listará suas branches
@@ -16,9 +16,9 @@
 ### Make a Change
 - git status - lista arquivos novos ou modificados ainda não commitados
 - git diff - lista alterações e conflitos
-- git add [file] - coloca o arquivo pronto para commit
-- git reset [file] - tira os arquivos prontos para commit e continua com as alterações atuais do arquivo
-- git commit -m "[descriptive message]" - commita todos os arquivos para o controle de versão
+- git add [file] - coloca o arquivo para commit
+- git reset [file] - tira os arquivos que estavam prontos para commit e continua com as alterações atuais do arquivo
+- git commit -m "[descriptive message]" - leva os arquivos como eles estão na área de preparação e os armazena permanentemente no diretório Git.
 
 ### Synchronize
 - git remote add <name> <url> - cria uma nova conexão para um repositório remoto
